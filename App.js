@@ -1,9 +1,9 @@
 // import logo from './logo.svg';
 import React, {useState} from 'react';
 import './App.css';
-import Navbar from './Components/Navbar';
-import Textarea from './Components/Textarea';
-import Alert from './Components/Alert';
+import Navbar from 'Navbar';
+import Textarea from 'Textarea';
+import Alert from 'Alert';
 
 function App() {
   const [mode, setMode] = useState('light');
